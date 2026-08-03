@@ -69,6 +69,11 @@ const stages = [
     ],
     leaderMultiplication: "Every Connect Group should aim to develop 2 Apprentice Leaders who help lead discussions, follow up with members, begin mentoring others, and prepare to launch a new group.",
     milestone: "Each CG reproduces a new group every 12–18 months",
+    nextGenFocus: "Every Connect Group is an entry point into God's mission — members are encouraged to build genuine friendships with students and young people in their networks (school, university, work, sports), inviting them into community as the first seed of reaching the next generation and impacting the world around them.",
+    nextGenMarkers: [
+      "CG members building relationships with students & young people in their networks",
+      "Praying specifically for local schools, universities & the surrounding community",
+    ],
     timeline: "Year 1: 3–5 Connect Groups",
     qualifications: null,
     tools: [
@@ -132,6 +137,25 @@ const stages = [
       { name: "Core Development", detail: "Quarterly leader gatherings on disciple-making, spiritual formation, mission, and identifying new leaders" },
     ],
     milestone: "Healthy cluster: consistent multiplication + new believers",
+    discipleshipTag: "Engage",
+    leadershipTag: "Triad multiplication",
+    campusStatus: "Engaging",
+    nextGenFocus: "As Connect Groups combine into a Cluster, next-generation and campus engagement becomes coordinated — outreach events are intentionally designed to reach students and young families in the region, and the cluster begins to feel like a visible, redemptive presence in local schools, universities, and neighbourhoods.",
+    nextGenMarkers: [
+      "Outreach events specifically reaching students, schools & universities in the region",
+      "Growing visibility & goodwill in the surrounding community",
+    ],
+    compassionStatus: "Serving Together",
+    compassionFocus: "Compassion ministry at this stage looks like serving side by side — Connect Groups and the cluster serve together in practical, hands-on ways (service projects, care for those in need) as a natural expression of outreach, without yet needing a dedicated compassion ministry structure.",
+    compassionMarkers: [
+      "Connect Groups & cluster serving together in practical, hands-on ways",
+      "Compassion woven into existing outreach events rather than run as a separate ministry",
+    ],
+    benchmarks: [
+      { label: "Gatherings", detail: "Quarterly cluster gatherings (3–5 Triads leading Connect Groups)" },
+      { label: "Public Advertising", detail: "Not yet — no public advertising at this stage" },
+      { label: "Accountability", detail: "Cluster leader(s) report to the ENAC CP Director or delegate" },
+    ],
     timeline: "Year 2: 5–10 Connect Groups",
     qualifications: null,
     tools: [
@@ -171,11 +195,13 @@ const stages = [
     color: "#1A3A5C",
     lightColor: "#E6EFF9",
     tagline: "Develop a committed team for launch",
-    description: "When a cluster reaches 30–50 committed people, a Core Team forms. The Core Team is a group (4–8) of committed Christ followers who are supporters of the Local Leaders and active carriers of the vision and values of the church. This team consists of CG leaders, apprentices, highly committed disciples, and emerging ministry leaders.",
+    description: "This stage is about expansion — intentional disciple-making and increased outreach so the core group of committed people doubles from about 25 to 50+, while a dedicated leadership Core Team is strengthened alongside it. The Core Team is a group of committed Christ followers who are supporters of the Local Leaders and active carriers of the vision and values of the church. This team consists of CG leaders, apprentices, highly committed disciples, and emerging ministry leaders.",
     stageFocuses: [
       { number: 1, title: "Expanding the CORE", detail: "Doubling the core group from about 25 to 50+ people" },
       { number: 2, title: "Developing a leadership CORE team", detail: "Building a dedicated leadership core team of 5 to 7 people" },
     ],
+    coreTeamStatus: "Preferred",
+    teamDiversityFocus: "The leadership Core Team is built intentionally, not by default. At this stage, having a multicultural core team is the goal being actively pursued — leaders are sought out and developed across cultures, generations, and backgrounds, so the future church plant carries the same multicultural, multigenerational DNA as ENAC from its very foundation.",
     characteristics: [
       "30–50 committed people; Core Team of 4–8 F.A.I.T.H qualified members",
       "Functioning like a 'church in formation' with monthly training gatherings",
@@ -194,6 +220,26 @@ const stages = [
       "Develop systems for group multiplication",
     ],
     milestone: "Core team of 4–8 qualified, committed members formed",
+    discipleshipTag: "Engage & Establish",
+    leadershipTag: "Identify & Gather Disciple Making Leaders",
+    campusStatus: "Engaging",
+    nextGenFocus: "The Core Team begins forming intentional plans for campus and school ministry — identifying leaders with a heart for the next generation and mapping out how the future church plant will engage nearby universities, schools, and community needs from day one.",
+    nextGenMarkers: [
+      "Core Team members identified to lead campus/school engagement",
+      "A clear plan for reaching universities, schools & the surrounding community as part of the launch strategy",
+    ],
+    compassionStatus: "Serving Together",
+    compassionFocus: "As with campus ministry, compassion work at this stage is still relational rather than structured — the Core Team continues serving together, building the shared conviction and practice that will grow into a dedicated ministry once the church plants.",
+    compassionMarkers: [
+      "Core Team continuing to serve together in the community",
+      "Building the conviction & habits that will become a dedicated compassion ministry post-launch",
+    ],
+    benchmarks: [
+      { label: "Gatherings", detail: "Quarterly cluster gatherings & Disciple Maker (DM) meetings (20 DMs leading 5–8 Connect Groups)" },
+      { label: "Services", detail: "Run quarterly/monthly \"combined Connect Groups\" until reaching 50+ disciples" },
+      { label: "Public Advertising", detail: "Optional cluster social media page" },
+      { label: "Accountability", detail: "Cluster leader(s) report to the ENAC CP Director or delegate" },
+    ],
     timeline: "Year 3: 8+ Connect Groups",
     qualifications: {
       maturity: [
@@ -263,6 +309,7 @@ const stages = [
       "Developing ministry teams & sharing leadership",
       "Building community awareness & visibility",
       "Follow-up systems established",
+      "Has a multicultural, multigenerational core team carried into the launch team",
     ],
     leaderFocus: [
       "Host monthly preview services with worship, preaching & response",
@@ -271,6 +318,26 @@ const stages = [
       "Prepare all systems for public launch",
     ],
     milestone: "Monthly preview services running with growing attendance",
+    discipleshipTag: "Engage, Establish & Equip",
+    leadershipTag: "Identify, Instruct, Impart, Intern",
+    coreTeamStatus: "Achieved",
+    campusStatus: "Ideation / Planning",
+    nextGenFocus: "General neighbourhood and community engagement is already active through preview services and prayer walks — and specifically for campus ministry, this is the season of ideation and planning: mapping out concretely how the future church plant will reach students, schools, and universities once it launches.",
+    nextGenMarkers: [
+      "Active neighbourhood engagement through the preview season",
+      "A concrete campus ministry plan taking shape ahead of launch",
+    ],
+    compassionStatus: "Ideation / Planning",
+    compassionFocus: "Compassion ministry moves into ideation and planning — the team begins shaping what a dedicated compassion ministry will look like (partnerships, causes, structure) so it's ready to stand up once the church plants.",
+    compassionMarkers: [
+      "A concrete plan taking shape for a dedicated compassion ministry",
+      "Potential community partners & causes identified ahead of launch",
+    ],
+    benchmarks: [
+      { label: "Services", detail: "Start services once 50 disciples are reached — monthly, then fortnightly" },
+      { label: "Public Advertising", detail: "Optional — if advertising is done, have a plan to manage expectations" },
+      { label: "Accountability", detail: "CP leader reports to the ENAC CP Director or delegate" },
+    ],
     timeline: "6–9 months before launch",
     qualifications: null,
     tools: [
@@ -321,12 +388,14 @@ const stages = [
       "Leaders being developed & groups multiplying",
       "People coming to Christ — baptism & added to community",
       "Measurable community impact",
+      "Multicultural, multigenerational leadership sustained as the church matures",
     ],
     markers: [
       "Disciples being formed consistently",
       "Leaders being developed & groups multiplying",
       "People coming to Christ (baptism & added to community)",
       "Measurable community impact",
+      "Multicultural, multigenerational leadership sustained as the church matures",
     ],
     leaderFocus: [
       "Reproduce the CG → Cluster → CP pipeline",
@@ -335,6 +404,27 @@ const stages = [
       "Begin identifying the next church plant",
     ],
     milestone: "New church publicly launched with sustainable structure",
+    discipleshipTag: "Engage, Establish, Equip & Empower",
+    leadershipTag: "Identify, Instruct, Impart, Intern",
+    coreTeamStatus: "Achieved",
+    campusStatus: "Establishing → Established",
+    nextGenFocus: "Campus and community ministry moves from establishing into becoming fully established — the new church plant sustains an ongoing ministry to students, schools, and universities that starts as it launches and matures into a permanent fixture of church life as it grows into a reproducing church.",
+    nextGenMarkers: [
+      "Established, ongoing ministry reaching students, schools & universities",
+      "Measurable, sustained impact on the surrounding community",
+      "This next-gen commitment reproduced in every future church plant",
+    ],
+    compassionStatus: "Establishing → Established",
+    compassionFocus: "Compassion ministry follows the same arc — established formally as the church plant launches, and fully embedded as an ongoing ministry as the church matures and reproduces.",
+    compassionMarkers: [
+      "A dedicated compassion ministry running consistently",
+      "Formal partnerships & causes the church is known for in its community",
+    ],
+    benchmarks: [
+      { label: "Services", detail: "Weekend services as often as strategically helpful" },
+      { label: "Public Advertising", detail: "Publicly advertise as a location" },
+      { label: "Accountability", detail: "CP leader reports to the ENAC CP Director or delegate, moving toward an ordained pastor (LP) reporting to the Senior Pastor (SP) as the church matures" },
+    ],
     timeline: "Year 3+ — and the cycle begins again",
     qualifications: null,
     tools: [
@@ -526,6 +616,13 @@ Be warm, practical, and spiritually grounded. Keep responses concise but rich �
         </div>
       </div>
 
+      {/* Identity strip — Who We Are */}
+      <div style={{ background: BRAND.navy, borderBottom: `1px solid rgba(255,255,255,0.12)`, padding: "8px 24px", textAlign: "center" }}>
+        <span style={{ fontSize: "12.5px", color: "rgba(255,255,255,0.85)", fontWeight: 500, fontStyle: "italic" }}>
+          We Are a Multi-Cultural, Multi-Generational, Socially Responsible Church that Makes Disciples
+        </span>
+      </div>
+
       {/* Progress bar */}
       <div style={{ background: BRAND.lightBorder, height: "5px", display: "flex" }}>
         {stages.map((s, i) => (
@@ -596,6 +693,12 @@ Be warm, practical, and spiritually grounded. Keep responses concise but rich �
             <div style={{ marginTop: "18px", display: "flex", gap: "10px", flexWrap: "wrap" }}>
               <span style={{ background: "rgba(255,255,255,0.18)", padding: "5px 14px", borderRadius: "20px", fontSize: "12px", fontWeight: 500 }}>📅 {stage.timeline}</span>
               <span style={{ background: "rgba(255,255,255,0.18)", padding: "5px 14px", borderRadius: "20px", fontSize: "12px", fontWeight: 500 }}>🎯 {stage.subtitle}</span>
+              {stage.discipleshipTag && (
+                <span style={{ background: "rgba(255,255,255,0.18)", padding: "5px 14px", borderRadius: "20px", fontSize: "12px", fontWeight: 500 }}>📖 {stage.discipleshipTag}</span>
+              )}
+              {stage.leadershipTag && (
+                <span style={{ background: "rgba(255,255,255,0.18)", padding: "5px 14px", borderRadius: "20px", fontSize: "12px", fontWeight: 500 }}>🧭 {stage.leadershipTag}</span>
+              )}
             </div>
           </div>
 
@@ -611,6 +714,12 @@ Be warm, practical, and spiritually grounded. Keep responses concise but rich �
           {/* OVERVIEW */}
           {activeTab === "overview" && (
             <div>
+              {stage.id === 1 && (
+                <div style={{ background: BRAND.navy, borderRadius: "10px", padding: "22px 24px", marginBottom: "14px" }}>
+                  <div style={{ fontSize: "11px", fontWeight: 700, color: BRAND.blue, textTransform: "uppercase", letterSpacing: "1.5px", marginBottom: "8px" }}>What We Do</div>
+                  <p style={{ fontSize: "15px", lineHeight: "1.7", color: "white", fontWeight: 500 }}>We Honour God by planting churches that redeem campuses and communities throughout New Zealand.</p>
+                </div>
+              )}
               <div style={{ background: BRAND.white, borderRadius: "10px", padding: "24px", border: `1px solid ${BRAND.lightBorder}`, marginBottom: "14px" }}>
                 <div style={{ fontSize: "16px", fontWeight: 700, color: BRAND.navy, marginBottom: "12px" }}>About This Stage</div>
                 <p style={{ fontSize: "15px", lineHeight: "1.75", color: "#374151" }}>{stage.description}</p>
@@ -627,6 +736,17 @@ Be warm, practical, and spiritually grounded. Keep responses concise but rich �
                       </div>
                     </div>
                   ))}
+                </div>
+              )}
+              {stage.teamDiversityFocus && (
+                <div style={{ background: stage.lightColor, borderRadius: "10px", padding: "20px 24px", border: `1.5px solid ${stage.color}30`, marginBottom: "14px" }}>
+                  <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap", gap: "8px", marginBottom: "8px" }}>
+                    <div style={{ fontSize: "10px", fontWeight: 700, textTransform: "uppercase", letterSpacing: "1.5px", color: stage.color }}>🤝 Multicultural & Multigenerational by Design</div>
+                    {stage.coreTeamStatus && (
+                      <span style={{ background: stage.color, color: "white", padding: "3px 10px", borderRadius: "20px", fontSize: "11px", fontWeight: 700 }}>{stage.coreTeamStatus}</span>
+                    )}
+                  </div>
+                  <p style={{ fontSize: "14px", lineHeight: "1.7", color: "#374151" }}>{stage.teamDiversityFocus}</p>
                 </div>
               )}
               <div style={{ background: BRAND.white, borderRadius: "10px", padding: "24px", border: `1px solid ${BRAND.lightBorder}`, marginBottom: "14px" }}>
@@ -651,6 +771,39 @@ Be warm, practical, and spiritually grounded. Keep responses concise but rich �
                       </div>
                     </div>
                   ))}
+                </div>
+              )}
+              {stage.benchmarks && (
+                <div style={{ background: BRAND.white, borderRadius: "10px", padding: "24px", border: `1px solid ${BRAND.lightBorder}`, marginBottom: "14px" }}>
+                  <div style={{ fontSize: "16px", fontWeight: 700, color: BRAND.navy, marginBottom: "16px" }}>📋 Health Benchmarks & Structure</div>
+                  {stage.benchmarks.map((b, i) => (
+                    <div key={i} style={{ display: "flex", gap: "14px", alignItems: "flex-start", marginBottom: "12px", paddingBottom: "12px", borderBottom: i < stage.benchmarks.length - 1 ? `1px solid ${BRAND.lightBorder}` : "none" }}>
+                      <div style={{ fontSize: "11px", fontWeight: 700, color: stage.color, textTransform: "uppercase", letterSpacing: "0.5px", width: "130px", flexShrink: 0 }}>{b.label}</div>
+                      <div style={{ fontSize: "14px", color: "#374151", lineHeight: "1.6" }}>{b.detail}</div>
+                    </div>
+                  ))}
+                </div>
+              )}
+              {stage.nextGenFocus && (
+                <div style={{ background: BRAND.white, borderRadius: "10px", padding: "24px", border: `1px solid ${BRAND.lightBorder}`, marginBottom: "14px" }}>
+                  <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap", gap: "8px", marginBottom: "10px" }}>
+                    <div style={{ fontSize: "16px", fontWeight: 700, color: BRAND.navy }}>🌍 Campus Ministry — Reaching the Next Generation</div>
+                    {stage.campusStatus && (
+                      <span style={{ background: stage.color, color: "white", padding: "3px 10px", borderRadius: "20px", fontSize: "11px", fontWeight: 700 }}>{stage.campusStatus}</span>
+                    )}
+                  </div>
+                  <p style={{ fontSize: "14px", lineHeight: "1.7", color: "#374151" }}>{stage.nextGenFocus}</p>
+                </div>
+              )}
+              {stage.compassionFocus && (
+                <div style={{ background: BRAND.white, borderRadius: "10px", padding: "24px", border: `1px solid ${BRAND.lightBorder}`, marginBottom: "14px" }}>
+                  <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap", gap: "8px", marginBottom: "10px" }}>
+                    <div style={{ fontSize: "16px", fontWeight: 700, color: BRAND.navy }}>🤲 Compassion Ministry</div>
+                    {stage.compassionStatus && (
+                      <span style={{ background: stage.color, color: "white", padding: "3px 10px", borderRadius: "20px", fontSize: "11px", fontWeight: 700 }}>{stage.compassionStatus}</span>
+                    )}
+                  </div>
+                  <p style={{ fontSize: "14px", lineHeight: "1.7", color: "#374151" }}>{stage.compassionFocus}</p>
                 </div>
               )}
               <div style={{ background: stage.lightColor, borderRadius: "10px", padding: "20px 24px", border: `1.5px solid ${stage.color}30` }}>
@@ -692,10 +845,42 @@ Be warm, practical, and spiritually grounded. Keep responses concise but rich �
                 </div>
               )}
               {stage.metrics && (
-                <div style={{ background: stage.lightColor, borderRadius: "10px", padding: "20px 24px", border: `1.5px solid ${stage.color}30` }}>
+                <div style={{ background: stage.lightColor, borderRadius: "10px", padding: "20px 24px", border: `1.5px solid ${stage.color}30`, marginBottom: "14px" }}>
                   <div style={{ fontSize: "12px", fontWeight: 700, color: stage.color, textTransform: "uppercase", letterSpacing: "1px", marginBottom: "12px" }}>Metrics That Matter</div>
                   <p style={{ fontSize: "13px", color: BRAND.gray, marginBottom: "12px", fontStyle: "italic" }}>Rather than measuring attendance alone, focus on:</p>
                   {stage.metrics.map((m, i) => (
+                    <div key={i} style={{ display: "flex", gap: "10px", alignItems: "center", marginBottom: "8px" }}>
+                      <span style={{ color: stage.color, fontWeight: 700 }}>✓</span>
+                      <span style={{ fontSize: "14px", color: "#374151" }}>{m}</span>
+                    </div>
+                  ))}
+                </div>
+              )}
+              {stage.nextGenMarkers && (
+                <div style={{ background: BRAND.white, borderRadius: "10px", padding: "24px", border: `1px solid ${BRAND.lightBorder}`, marginBottom: "14px" }}>
+                  <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap", gap: "8px", marginBottom: "12px" }}>
+                    <div style={{ fontSize: "12px", fontWeight: 700, color: stage.color, textTransform: "uppercase", letterSpacing: "1px" }}>🌍 Campus Ministry & Next Generation</div>
+                    {stage.campusStatus && (
+                      <span style={{ background: stage.color, color: "white", padding: "3px 10px", borderRadius: "20px", fontSize: "11px", fontWeight: 700 }}>{stage.campusStatus}</span>
+                    )}
+                  </div>
+                  {stage.nextGenMarkers.map((m, i) => (
+                    <div key={i} style={{ display: "flex", gap: "10px", alignItems: "center", marginBottom: "8px" }}>
+                      <span style={{ color: stage.color, fontWeight: 700 }}>✓</span>
+                      <span style={{ fontSize: "14px", color: "#374151" }}>{m}</span>
+                    </div>
+                  ))}
+                </div>
+              )}
+              {stage.compassionMarkers && (
+                <div style={{ background: BRAND.white, borderRadius: "10px", padding: "24px", border: `1px solid ${BRAND.lightBorder}` }}>
+                  <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap", gap: "8px", marginBottom: "12px" }}>
+                    <div style={{ fontSize: "12px", fontWeight: 700, color: stage.color, textTransform: "uppercase", letterSpacing: "1px" }}>🤲 Compassion Ministry</div>
+                    {stage.compassionStatus && (
+                      <span style={{ background: stage.color, color: "white", padding: "3px 10px", borderRadius: "20px", fontSize: "11px", fontWeight: 700 }}>{stage.compassionStatus}</span>
+                    )}
+                  </div>
+                  {stage.compassionMarkers.map((m, i) => (
                     <div key={i} style={{ display: "flex", gap: "10px", alignItems: "center", marginBottom: "8px" }}>
                       <span style={{ color: stage.color, fontWeight: 700 }}>✓</span>
                       <span style={{ fontSize: "14px", color: "#374151" }}>{m}</span>
