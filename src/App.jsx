@@ -63,7 +63,7 @@ const stages = [
     ],
     leaderFocus: [
       "Shepherd members & facilitate discussion",
-      "Develop 2 apprentice leaders (triads)",
+      "Develop 2 apprentice leaders (tripods)",
       "Encourage outreach & identify emerging leaders",
       "Reproduce a new group every 12–18 months",
     ],
@@ -74,6 +74,12 @@ const stages = [
       "CG members building relationships with students & young people in their networks",
       "Praying specifically for local schools, universities & the surrounding community",
     ],
+    pathwayStage: "Engage → Establish",
+    pathwayFocus: "This is where the personal discipleship journey begins. A Visitor moves through the ENAC Welcome Experience into Connect Group life (Engage) — then, within the rhythm of the Connect Group, begins the Establish phase: One 2 One, Water Baptism, Freedom Weekend, Discover ENAC (DNA Class), the Foundations Track, and Church Family Class all take place through relationships built here.",
+    pathwaySteps: [
+      { phase: "Engage", items: ["Visitor", "ENAC Welcome Experience", "Connect to CG", "One 2 One"] },
+      { phase: "Establish", items: ["One 2 One", "Water Baptism", "Freedom Weekend", "Discover ENAC (DNA Class)", "Foundations Track", "Serve", "Church Family Class"] },
+    ],
     timeline: "Year 1: 3–5 Connect Groups",
     qualifications: null,
     tools: [
@@ -81,7 +87,7 @@ const stages = [
         category: "Discipleship",
         items: [
           { name: "F.A.I.T.H Assessment", description: "Evaluate disciple readiness across five dimensions: Faith, Accountability, Influence, Training, and Humility.", url: null },
-          { name: "Triad Guide", description: "Three-person accountability and growth structure for emerging leaders.", url: null },
+          { name: "Tripod Guide", description: "Three-person accountability and growth structure for emerging leaders.", url: null },
           { name: "Connect Group Health Check", description: "Self-assessment tool for CG leaders to evaluate group health and identify next steps.", url: null },
         ],
       },
@@ -138,7 +144,7 @@ const stages = [
     ],
     milestone: "Healthy cluster: consistent multiplication + new believers",
     discipleshipTag: "Engage",
-    leadershipTag: "Triad multiplication",
+    leadershipTag: "Tripod multiplication",
     campusStatus: "Engaging",
     nextGenFocus: "As Connect Groups combine into a Cluster, next-generation and campus engagement becomes coordinated — outreach events are intentionally designed to reach students and young families in the region, and the cluster begins to feel like a visible, redemptive presence in local schools, universities, and neighbourhoods.",
     nextGenMarkers: [
@@ -152,9 +158,14 @@ const stages = [
       "Compassion woven into existing outreach events rather than run as a separate ministry",
     ],
     benchmarks: [
-      { label: "Gatherings", detail: "Quarterly cluster gatherings (3–5 Triads leading Connect Groups)" },
+      { label: "Gatherings", detail: "Quarterly cluster gatherings (3–5 Tripods leading Connect Groups)" },
       { label: "Public Advertising", detail: "Not yet — no public advertising at this stage" },
       { label: "Accountability", detail: "Cluster leader(s) report to the ENAC CP Director or delegate" },
+    ],
+    pathwayStage: "Establish → Equip",
+    pathwayFocus: "As disciples established in their Connect Group grow, the Cluster is where they step into the Equip phase — DiscipleMakers training and the Lead101 track develop the next generation of Cluster and Connect Group leaders, extending the multiplication pipeline across the region.",
+    pathwaySteps: [
+      { phase: "Equip", items: ["DiscipleMakers", "Disciple Others", "Lead101", "Lead101 Boost"] },
     ],
     timeline: "Year 2: 5–10 Connect Groups",
     qualifications: null,
@@ -334,7 +345,7 @@ const stages = [
       "Potential community partners & causes identified ahead of launch",
     ],
     benchmarks: [
-      { label: "Services", detail: "Start services once 50 disciples are reached — monthly, then fortnightly" },
+      { label: "Services", detail: "Start services once 50+ disciples are reached — monthly, then fortnightly" },
       { label: "Public Advertising", detail: "Optional — if advertising is done, have a plan to manage expectations" },
       { label: "Accountability", detail: "CP leader reports to the ENAC CP Director or delegate" },
     ],
@@ -460,7 +471,7 @@ const pipeline = [
   { step: 1, title: "New Believer", desc: "Encounters Jesus through community" },
   { step: 2, title: "Growing Disciple", desc: "Scripture, prayer, accountability" },
   { step: 3, title: "Serving Member", desc: "Using gifts to serve others" },
-  { step: 4, title: "Apprentice Leader", desc: "Being mentored in a triad" },
+  { step: 4, title: "Apprentice Leader", desc: "Being mentored in a tripod" },
   { step: 5, title: "Connect Group Leader", desc: "Shepherding & multiplying" },
   { step: 6, title: "Cluster Leader", desc: "Coaching regional groups" },
   { step: 7, title: "Church Plant Team Member", desc: "Core team committed" },
@@ -471,7 +482,7 @@ const values = [
   { icon: "🙏", title: "Prayer", desc: "Prayer fuels every stage of the process." },
   { icon: "📖", title: "Disciple-Making", desc: "We are disciples who make disciples." },
   { icon: "📣", title: "Storytelling", desc: "Celebrating life change builds faith and momentum." },
-  { icon: "×2", title: "Multiplication", desc: "Disciples. Leaders. Groups. Churches." },
+  { icon: "🔁", title: "Multiplication", desc: "Disciples. Leaders. Groups. Churches." },
   { icon: "🌍", title: "Mission", desc: "Every group exists for people who are not yet there." },
 ];
 
@@ -480,7 +491,7 @@ const keyDefs = [
   { term: "Disciple Maker", def: "A disciple of Jesus who enters into relationships with people to intentionally help them follow Jesus, be changed by Jesus, and join the mission of Jesus." },
   { term: "Disciple-Making", def: "An intentional process of lasting life transformation that occurs over time within a small group of people who have prayerfully committed to becoming more like Jesus Christ." },
   { term: "F.A.I.T.H", def: "Key leadership character traits: Faithful, Available, Involved, Teachable, Humble. Character before competence." },
-  { term: "Triad", def: "A group of 3 where a leader develops 2 apprentices — the core unit of leadership multiplication at every stage." },
+  { term: "Tripod", def: "A group of 3 where a leader develops 2 apprentices — the core unit of leadership multiplication at every stage." },
 ];
 
 export default function App() {
@@ -518,7 +529,7 @@ export default function App() {
 
 The framework: Connect Groups (Multiplication) → Regional Cluster → Church Plant Core Team → Pre-Church Plant Formation → New Church Plant.
 
-STAGE 1 — Healthy Connect Groups: Foundational disciple-making small groups. Discipleship markers across Spiritual Habits (daily Scripture, prayer, worship), Community Life (accountability, serving), and Mission (outreach, testimony). Each CG develops 2 apprentice leaders (triads). Goal: reproduce a new group every 12–18 months.
+STAGE 1 — Healthy Connect Groups: Foundational disciple-making small groups. Discipleship markers across Spiritual Habits (daily Scripture, prayer, worship), Community Life (accountability, serving), and Mission (outreach, testimony). Each CG develops 2 apprentice leaders (tripods). Goal: reproduce a new group every 12–18 months.
 
 STAGE 2 — Regional Cluster: 3–6 CGs in one region. Cluster Leader coaches groups, identifies future planters. Activities: regional prayer gatherings, outreach events (BBQs, Alpha, service projects), core development gatherings. Health indicators: consistent multiplication, new believers, increasing community engagement.
 
@@ -597,11 +608,11 @@ Be warm, practical, and spiritually grounded. Keep responses concise but rich �
       <div style={{ background: "#005EB9", color: "white", padding: "0 24px", display: "flex", alignItems: "center", justifyContent: "space-between", borderBottom: "3px solid #1AADAD", minHeight: "68px", flexWrap: "wrap", gap: "12px" }}>
         <div style={{ display: "flex", alignItems: "center", gap: "14px" }}>
           {EN_LOGO_SRC ? (
-            <img src={EN_LOGO_SRC} alt="Every Nation Auckland City" style={{ height: "44px", width: "auto" }} />
+            <img src={EN_LOGO_SRC} alt="Every Nation City Church" style={{ height: "44px", width: "auto" }} />
           ) : (
             <div style={{ display: "flex", flexDirection: "column", lineHeight: 1.2 }}>
               <span style={{ fontSize: "11px", fontWeight: 800, letterSpacing: "2px", color: "white", textTransform: "uppercase" }}>Every Nation</span>
-              <span style={{ fontSize: "11px", fontWeight: 800, letterSpacing: "2px", color: "#1AADAD", textTransform: "uppercase" }}>Auckland City</span>
+              <span style={{ fontSize: "11px", fontWeight: 800, letterSpacing: "2px", color: "#1AADAD", textTransform: "uppercase" }}>City Church</span>
             </div>
           )}
           <div style={{ width: "1px", height: "32px", background: "rgba(255,255,255,0.25)" }} />
@@ -617,7 +628,7 @@ Be warm, practical, and spiritually grounded. Keep responses concise but rich �
       </div>
 
       {/* Identity strip — Who We Are */}
-      <div style={{ background: BRAND.navy, borderBottom: `1px solid rgba(255,255,255,0.12)`, padding: "8px 24px", textAlign: "center" }}>
+      <div style={{ background: "#4B5563", borderBottom: `1px solid rgba(255,255,255,0.12)`, padding: "8px 24px", textAlign: "center" }}>
         <span style={{ fontSize: "12.5px", color: "rgba(255,255,255,0.85)", fontWeight: 500, fontStyle: "italic" }}>
           We Are a Multi-Cultural, Multi-Generational, Socially Responsible Church that Makes Disciples
         </span>
@@ -804,6 +815,27 @@ Be warm, practical, and spiritually grounded. Keep responses concise but rich �
                     )}
                   </div>
                   <p style={{ fontSize: "14px", lineHeight: "1.7", color: "#374151" }}>{stage.compassionFocus}</p>
+                </div>
+              )}
+              {stage.pathwayFocus && (
+                <div style={{ background: BRAND.white, borderRadius: "10px", padding: "24px", border: `1px solid ${BRAND.lightBorder}`, marginBottom: "14px" }}>
+                  <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap", gap: "8px", marginBottom: "12px" }}>
+                    <div style={{ fontSize: "16px", fontWeight: 700, color: BRAND.navy }}>🧭 Personal Discipleship Pathway</div>
+                    {stage.pathwayStage && (
+                      <span style={{ background: stage.color, color: "white", padding: "3px 10px", borderRadius: "20px", fontSize: "11px", fontWeight: 700 }}>{stage.pathwayStage}</span>
+                    )}
+                  </div>
+                  <p style={{ fontSize: "14px", lineHeight: "1.7", color: "#374151", marginBottom: "18px" }}>{stage.pathwayFocus}</p>
+                  {stage.pathwaySteps && stage.pathwaySteps.map((group, gi) => (
+                    <div key={gi} style={{ marginBottom: gi < stage.pathwaySteps.length - 1 ? "14px" : 0 }}>
+                      <div style={{ fontSize: "11px", fontWeight: 700, color: stage.color, textTransform: "uppercase", letterSpacing: "1px", marginBottom: "8px" }}>{group.phase}</div>
+                      <div style={{ display: "flex", flexWrap: "wrap", gap: "8px" }}>
+                        {group.items.map((item, ii) => (
+                          <span key={ii} style={{ background: stage.lightColor, color: stage.color, padding: "6px 14px", borderRadius: "20px", fontSize: "12.5px", fontWeight: 500 }}>{item}</span>
+                        ))}
+                      </div>
+                    </div>
+                  ))}
                 </div>
               )}
               <div style={{ background: stage.lightColor, borderRadius: "10px", padding: "20px 24px", border: `1.5px solid ${stage.color}30` }}>
